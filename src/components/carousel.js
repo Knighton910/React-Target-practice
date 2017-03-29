@@ -13,7 +13,7 @@ var SimpleSlider = React.createClass({
       fade: 1
     };
     return (
-      <div className="container">
+      <div>
         <Slider {...settings}>
           <div className="img-1"></div>
           <div className="img-2"></div>

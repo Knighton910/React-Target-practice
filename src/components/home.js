@@ -39,7 +39,15 @@ const Home = React.createClass({
             </ul>
           </div>
 
-          <div className="carousel-container">
+          <div className="director-section">
+            <div className="director">
+            </div>
+            <h2 id="name">Sir Cookie Monster</h2>
+
+          </div>
+
+
+          <div className="carousel">
             <SimpleSlider/>
           </div>
 

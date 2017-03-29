@@ -9,14 +9,31 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
     <!--<link rel="stylesheet" type="text/css" href="../src/components/styles.css">-->
-    <style>
 
+    <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+
+    <style>
+      body { margin:0; padding:0; }
+      .map {
+        position:inherit; top:0; bottom:0; width:50%; height: 350px; padding: 0 30px 0 50px;
+      }
+      #map-one {
+        margin: 0 0 25px 58px; padding-left: 0; width: 900px; height: 600px; position: relative; top: -1960px;
+      }
     </style>
+
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <title>Pivotal | San Diego</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <div id='map-one' class='map'> </div>
+    <script>
+      L.mapbox.accessToken = 'pk.eyJ1Ijoia2Vsa25pIiwiYSI6ImNqMG4wcHBpeDAwd3AycW5vc3N4M2h4ZncifQ.ob6DzMjiuXN5BW34eDK3eg';
+      L.mapbox.map('map-one', 'mapbox.streets');
+    </script>
   </body>
 </html>
 

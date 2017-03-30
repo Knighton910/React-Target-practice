@@ -3,6 +3,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/css/bootstrap-theme.css'
 import SimpleSlider from './carousel'
+import MapView from './leaflet'
 
 
 const Home = React.createClass({
@@ -39,11 +40,16 @@ const Home = React.createClass({
             </ul>
           </div>
 
-          <div className="director-section">
-            <div className="director">
-            </div>
-            <h2 id="name">Sir Cookie Monster</h2>
+          <div className="map-director">
+              <MapView/>
 
+            <div className="director-section">
+              <div className="director">
+              </div>
+              <h2 id="name">Sir Cookie Monster</h2>
+              <h4>Office Director</h4>
+              <div id="name-contact"><a>Contact</a></div>
+            </div>
           </div>
 
 

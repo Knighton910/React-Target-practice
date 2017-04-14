@@ -13,6 +13,7 @@ const Home = React.createClass({
         <div className="billboard">
           <h1 className="h1">Los Angeles</h1>
 
+
           <h4>
             1333 2nd Street
             <br />
@@ -22,6 +23,7 @@ const Home = React.createClass({
           </h4>
         </div>
 
+
         <div className="body-wrapper">
           <div className="center">
             <h2 className="h2">About this Office</h2>
@@ -29,6 +31,7 @@ const Home = React.createClass({
               Located in the heart of downtown Santa Monica, our Los Angeles office is rapidly growing alongside the thriving 'Silicon Beach' tech community. As the central outpost for Southern Californian, Pivotal LA builds everything from mobile applications at the intersection of entertainment and technology to the next generation of financial internet backbone. Outside of work we keep busy with morning surf sessions, evening beach volleyball games, and the local tech community night life.
             </p>
           </div>
+
 
           <div className="product-nav">
             <ul>
@@ -40,16 +43,21 @@ const Home = React.createClass({
             </ul>
           </div>
 
-          <div className="map-director">
-              <MapView/>
+          <div classID="mapme">
+            <MapView/>
+          </div>
 
-            <div className="director-section">
-              <div className="director">
-              </div>
-              <h2 id="name">Sir Cookie Monster</h2>
-              <h4>Office Director</h4>
-              <div id="name-contact"><a>Contact</a></div>
-            </div>
+
+
+          <div className="dir-sect">
+            <div className="director"></div>
+            <h2 id="name">Sir Cookie Monster</h2>
+            <h4 id="od">Office Director</h4>
+            <div id="name-contact"><a>Contact</a></div>
+          </div>
+
+          <div className="companies-sect">
+            <h2>Companies </h2>
           </div>
 
 

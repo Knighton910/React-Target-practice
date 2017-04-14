@@ -6,9 +6,9 @@ class MapView extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="map-parent">
         <Map className="map"
-          
+
           center={position}
           zoom={10}>
           <TileLayer

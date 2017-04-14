@@ -2,6 +2,24 @@ var React = require('react');
 var Slider = require('react-slick');
 import './styles.css'
 
+
+var SampleNextArrow = React.createClass({
+  render: function() {
+    return <div {...this.props}
+    style={{display: 'block', background: 'tomato'}}></div>;
+  }
+});
+
+var SamplePrevArrow = React.createClass({
+  render: function() {
+    return (
+      <div {...this.props}
+      style={{display: 'block', background: 'tomato'}}></div>
+    );
+  }
+});
+
+
 var SimpleSlider = React.createClass({
   render: function () {
     var settings = {
@@ -10,7 +28,9 @@ var SimpleSlider = React.createClass({
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      fade: 1
+      fade: 1,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />
     };
     return (
       <div>
@@ -28,7 +48,3 @@ var SimpleSlider = React.createClass({
 });
 
 export default SimpleSlider;
-
-
-// <img src="../../public/7.jpg"/>
-// <img src="../../public/6.jpg"/>

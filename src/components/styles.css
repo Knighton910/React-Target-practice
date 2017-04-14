@@ -7,9 +7,6 @@
   display: inline;
 }
 
-
-
-
 .about {
   background-color: red;
   color: steelblue;
@@ -23,17 +20,15 @@
 body {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  margin: 0;
   border: 0;
+  background-color: #f3e19f;
 }
 .body-wrapper {
   margin: 0 auto;
-  padding: 60px 0;
-  width: 70%;
+  width: 100%;
   font-size: large;
-  margin-bottom: 0;
+  position: center;
 }
-
 
 .billboard {
   padding-top: 103px;
@@ -44,8 +39,7 @@ body {
 
 .navI {
   padding: 12px 0 17px 0;
-  margin-bottom: 0px;
-  solid :#002236;
+  margin-bottom: 0;
 }
 
 .main-nav a{
@@ -117,12 +111,6 @@ a.min-reg {
   margin-left: -11px;
 }
 
-.dot {
-  color: #00ae9e;
-  font-size: 11px;
-  text-align: center;
-}
-
 li.comp a {
   margin-left: 94px;
   font-weight: 500;
@@ -132,7 +120,6 @@ li.comp a {
   color: #002236;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
   background-color: transparent;
   font-weight: 500;
   color: #002236
@@ -146,7 +133,7 @@ li.mn a {
 li.mn a.bouttime {
   color: antiquewhite;
   font-weight: 700;
-  display-inline: inline;
+  display: inline;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -158,21 +145,20 @@ li.mn a.bouttime {
 .wrapper,
 .home-content {
   width: 100%;
-  margin-left: -1px;
+  margin: 0 auto;
   border-right: 30px;
   background: white;
-  max-width: 1440px;
-  display: block;
-  margin-bottom: auto;
+  max-width: 100%;
+  text-align: center;
 }
 
 .home-content {
   margin: 0 auto;
   background: #fff;
   box-shadow: 0 9px 0px 0px #f9f9f9, 0 -9px 0px 0px #f9f9f9, 4px 0 8px -4px #dadada, -4px 0 8px -4px #dadada;
-  margin: auto;
   max-width: 100%;
   max-height: 100%;
+  text-align: center;
 }
 
 .nav.navI.navbar.navbar-default {
@@ -214,13 +200,13 @@ h4 {
 }
 
 .wrapper {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 .mn:nth-child(4) {
-    margin-left: 196px;
-    text-align: left;
+  margin-left: 196px;
+  text-align: left;
 }
 
 .product-nav > ul {
@@ -230,22 +216,19 @@ h4 {
 
 .product-nav > ul > li {
   color: #081016;
-  font-size: 15px;
+  font-size: 16px;
   margin: 0 30px 0 0;
   font-weight: 100;
   font-family: 'Raleway', serif;
 }
 
 .carousel {
-  background: linear-gradient(#E1AA79, transparent 2%),
-  #ffa949 url('../../public/plankme.jpg') no-repeat center;
+  background: url('../../public/cookiess1.png') no-repeat center;
   background-size: cover;
   height: 750px;
   text-align: center;
   padding: 45px 120px;
-  margin: 0 -217px -60px;
   margin-top: 110px;
-
 }
 
 .slick-slide {
@@ -256,6 +239,24 @@ h4 {
   width: 800px;
 }
 
+/* ------      Map Director - Section  ------- */
+.companies-sect {
+  content: url('../../public/test-comps.png');
+  width: 50%;
+  height: 492px;
+  background-color: #333333;
+  display: inline-block;
+  float: right;
+  color: white;
+}
+
+.dir-sect {
+  width: 50%;
+  height: 492px;
+  background-color: #333333;
+  display: inline-block;
+}
+
 .director {
   content: url('../../public/cookie.png');
   background-color: tomato;
@@ -264,57 +265,55 @@ h4 {
   margin: auto;
   background-position: center;
   border-radius: 50%;
-  margin: auto;
-  margin-top: 20px;
-  /*border: 2px solid #FF7259;*/
-  text-shadow: yellow 39px;
+  margin-top: 10%;
 }
 #name {
   color: #fff;
   font-family: 'Dancing Script', cursive;
   font-size: 200%;
-  border-bottom: 3px solid #FFDF32;
-  margin: 30px 30% 0 30%;
-  border-radius: 20px;
+  border-bottom: 3px solid tomato;
+  margin: 35px 30% 15px 30%;
+  border-radius: 18px;
 }
 #name-contact, #name-contact a {
   background-color: #00CEC2;
   padding: 19px 37px;
-  margin: 30px 30% 0 30%;
+  margin: 30px 30%;
   padding-left: 23px;
-}
-
-#name-contact a {
   color: #fff;
-
 }
-
-
-.director-section {
-  /*padding: 20%;*/
-  width: 740px;
-  height: 528px;
-  background-color: #162026;
-  margin-right: 0;
-  margin-left: 484px;
-  margin-top: -529px;
-  padding-top: 10%;
-  max-width: 100%;
+#od {
+  border-bottom: 3px solid tomato;
+  border-radius: 15px;
+  margin: 35px 40% 15px 40%;
 }
-
-/* Map Director --Section */
-.map-director {
-  /*width: 50%;*/
-}
-
 .map {
-  height: 55vh;
-  width: 700px;
-  margin-left: -216px;
-  margin-top: -55px;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.map-parent {
+  width: 100%;
+  height: 527px;
+  background-color: #f3e19f;
+  border: 7px #333333 solid;
+  /*padding-left: 25%;*/
+  padding: 0 15%;
+}
+
+/*div.map.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {*/
+  /*margin: auto;*/
+/*}*/
+/* ------   ( end of ) Map Director - Section  ------- */
+
+.Logo {
+  /*content: url('../../public/cookie1.png');*/
+  /*height: 150px;*/
+  /*width: 00px;*/
 }
 
 
+/* Images for react-carousel   --Section */
 .img-1 {
   content: url('../../public/img-1.jpg');
 }
@@ -333,3 +332,4 @@ h4 {
 .img-6 {
   content: url('../../public/img-6.jpg');
 }
+

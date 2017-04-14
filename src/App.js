@@ -29,10 +29,11 @@ const RouteHub = () => (
       <Navbar className="navI">
         <Navbar.Header>
           <Navbar.Brand className="z-container">
-            <a className="pivSd" href="#">Pivotal<a className="dot">&reg;</a></a>
+            
           </Navbar.Brand>
         </Navbar.Header>
         <Nav className="main-nav">
+          <NavItem className="Logo"></NavItem>
           <NavItem className="mn" href="/">Learn</NavItem>
           <NavItem className="mn" href="/about">Build</NavItem>
           <NavItem className="mn" href="/contact">Connect</NavItem>

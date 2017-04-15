@@ -1,11 +1,11 @@
 
-* {
-  box-sizing: border-box;
-}
+/** {*/
+  /*box-sizing: border-box;*/
+/*}*/
 
-* a {
-  display: inline;
-}
+/** a {*/
+  /*display: inline;*/
+/*}*/
 
 .about {
   background-color: red;
@@ -46,17 +46,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 45px;
   color: #002236;
 }
 
-.navbar-default .navbar-brand {
-  font-size: 45px;
-  color: #008775;
-}
-.navbar-default .navbar-brand:hover {
-  color: #008775;
-}
 
 ul, ol {
   text-align: right;
@@ -86,11 +78,13 @@ ul * {
   clear: left;
 }
 
+
+/*Mini nav */
 a.min-con {
   font-weight: 500;
 }
 .min-con {
-  color: #00ae9e;
+  color: tomato;
   word-spacing: -6%;
   font-size: 14px;
   font-weight: 500;
@@ -110,34 +104,24 @@ a.min-reg {
   margin-right: -13px;
   margin-left: -11px;
 }
+/*   end of Mini nav */
 
-li.comp a {
-  margin-left: 94px;
-  font-weight: 500;
-}
+/*     Main Nav    */
 
-.navbar-default .navbar-nav > li > a {
-  color: #002236;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  background-color: transparent;
-  font-weight: 500;
-  color: #002236
-}
+/*.navbar-default .navbar-nav > li > a {*/
+  /*color: orange;*/
+/*}*/
 
-li.mn a {
-  font-family: "Roboto", serif;
-  font-size: 18px;
-  font-weight: 700;
-}
-li.mn a.bouttime {
-  color: antiquewhite;
-  font-weight: 700;
-  display: inline;
-}
+/*navbar with cookie-logo*/
+/*li.mn a {*/
+  /*font-family: "Roboto", serif;*/
+  /*font-size: 18px;*/
+  /*font-weight: 700;*/
+/*}*/
+
 
 .navbar-default .navbar-nav > li > a {
-  color: #002236;
+  color: tomato;
   font-weight: 700;
   font-family: "Roboto", serif;
 }
@@ -159,11 +143,6 @@ li.mn a.bouttime {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
-}
-
-.nav.navI.navbar.navbar-default {
-  margin: 0 auto;
-  width: 15%;
 }
 
 .h2 {
@@ -204,10 +183,6 @@ h4 {
   margin: 0 auto;
 }
 
-.mn:nth-child(4) {
-  margin-left: 196px;
-  text-align: left;
-}
 
 .product-nav > ul {
   padding: 67px;
@@ -307,9 +282,11 @@ h4 {
 /* ------   ( end of ) Map Director - Section  ------- */
 
 .Logo {
-  /*content: url('../../public/cookie1.png');*/
-  /*height: 150px;*/
-  /*width: 00px;*/
+  content: url('../../public/cookie11.png');
+  height: 70px;
+  width: 90px;
+  margin-top: -9px;
+  margin-bottom: -15px;
 }
 
 

@@ -27,11 +27,7 @@ const RouteHub = () => (
           <li><a className="min-con" href="#">Contact Us</a></li>
         </ul>
       <Navbar className="navI">
-        <Navbar.Header>
-          <Navbar.Brand className="z-container">
-            
-          </Navbar.Brand>
-        </Navbar.Header>
+
         <Nav className="main-nav">
           <NavItem className="Logo"></NavItem>
           <NavItem className="mn" href="/">Learn</NavItem>

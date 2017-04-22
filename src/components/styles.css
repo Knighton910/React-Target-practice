@@ -1,20 +1,19 @@
-
-/** {*/
-  /*box-sizing: border-box;*/
-/*}*/
-
-/** a {*/
-  /*display: inline;*/
-/*}*/
-
-.about {
-  background-color: red;
-  color: steelblue;
+.learn {
+  content: url('../../public/learn.png');
+  height: 700px;
+  margin: 0 auto;
 }
 
-.contact {
-  background-color: blue;
-  color: gold;
+.connect {
+  content: url('../../public/connect.png');
+  height: 700px;
+  margin: 0 auto;
+}
+
+.build {
+  content: url('../../public/build.png');
+  height: 700px;
+  margin: 0 auto;
 }
 
 body {
@@ -309,4 +308,3 @@ h4 {
 .img-6 {
   content: url('../../public/img-6.jpg');
 }
-

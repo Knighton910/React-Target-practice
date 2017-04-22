@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const Contact = React.createClass({
+const Connect = React.createClass({
   render: function() {
     return(
-      <h2 className="contact">Contact</h2>
+      <h2 className="connect">Connect</h2>
     )
   }
 })
@@ -15,4 +15,4 @@ const Contact = React.createClass({
 //   </div>
 // )
 
-export default Contact
+export default Connect

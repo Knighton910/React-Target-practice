@@ -5,10 +5,11 @@ import {
 } from 'react-router-dom'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
-// Routes import | home  about  contact
+// Routes import | home  about  connect
 import Home from './components/home'
-import About from './components/about'
-import Contact from './components/contact'
+import Learn from './components/learn'
+import Connect from './components/connect'
+import Build from './components/build'
 import '../src/components/styles.css';
 
 
@@ -29,17 +30,18 @@ const RouteHub = () => (
       <Navbar className="navI">
 
         <Nav className="main-nav">
-          <NavItem className="Logo"></NavItem>
-          <NavItem className="mn" href="/">Learn</NavItem>
-          <NavItem className="mn" href="/about">Build</NavItem>
-          <NavItem className="mn" href="/contact">Connect</NavItem>
+          <NavItem className="Logo" href="/"></NavItem>
+          <NavItem className="mn" href="/learn">Learn</NavItem>
+          <NavItem className="mn" href="/build">Build</NavItem>
+          <NavItem className="mn" href="/connect">Connect</NavItem>
           <NavItem className="mn" href="#">Company</NavItem>
         </Nav>
       </Navbar>
 
       <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
-      <Route path="/contact" component={Contact}/>
+      <Route path="/learn" component={Learn}/>
+      <Route path="/build" component={Build}/>
+      <Route path="/connect" component={Connect}/>
     </div>
   </Router>
 )

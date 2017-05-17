@@ -32,7 +32,7 @@ const RouteHub = () => (
 
       <Navbar className="navI">
         <Nav className="main-nav">
-          <NavItem className="Logo" href="/"></NavItem>
+          <NavItem className="Logo"></NavItem>
           <NavItem className="mn" href="/">Home</NavItem>
           <NavItem className="mn" href="/learn">Learn</NavItem>
           <NavItem className="mn" href="/build">Build</NavItem>

@@ -1,17 +1,17 @@
 .learn {
-  content: url('../../public/learn.png');
+  content: url('photos/learn.png');
   height: 700px;
   margin: 0 auto;
 }
 
 .connect {
-  content: url('../../public/connect.png');
+  content: url('photos/connect.png');
   height: 700px;
   margin: 0 auto;
 }
 
 .build {
-  content: url('../../public/build.png');
+  content: url('photos/build.png');
   height: 700px;
   margin: 0 auto;
 }
@@ -32,7 +32,7 @@ body {
 .billboard {
   padding-top: 103px;
   height: 395px;
-  background: #353535 url("../../public/la.jpg") no-repeat center;
+  background: #353535 url("photos/la.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -146,6 +146,7 @@ a.min-reg {
 
 .h2 {
   margin-bottom: 20px;
+  font-size: 40px;
 }
 .h1 {
   font-size: 48px;
@@ -182,22 +183,30 @@ h4 {
   margin: 0 auto;
 }
 
-
-.product-nav > ul {
-  padding: 67px;
-  text-align: center;
+.product-nav > a {
+  display: block;
+  color: #323232;
+  font-size: 25px;
+  border-bottom: solid 5px black;
+  border-radius: 25px;
+  margin: 9px 300px; 
+  list-style: none;
 }
 
-.product-nav > ul > li {
-  color: #081016;
-  font-size: 16px;
-  margin: 0 30px 0 0;
-  font-weight: 100;
-  font-family: 'Raleway', serif;
+.product-nav > a:hover {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-bottom: solid 5px #f3e19f;
+}
+
+.product-nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .carousel {
-  background: url('../../public/cookiess1.png') no-repeat center;
+  background: url('photos/cookiess1.png') no-repeat center;
   background-size: cover;
   height: 750px;
   text-align: center;
@@ -215,7 +224,7 @@ h4 {
 
 /* ------      Map Director - Section  ------- */
 .companies-sect {
-  content: url('../../public/test-comps.png');
+  content: url('photos/test-comps.png');
   width: 50%;
   height: 492px;
   background-color: #333333;
@@ -232,7 +241,7 @@ h4 {
 }
 
 .director {
-  content: url('../../public/cookie.png');
+  content: url('photos/cookie.png');
   background-color: tomato;
   height: 116px;
   width: 116px;
@@ -247,7 +256,7 @@ h4 {
   font-size: 200%;
   border-bottom: 3px solid tomato;
   margin: 35px 30% 15px 30%;
-  border-radius: 18px;
+  border-radius: 9px;
 }
 #name-contact, #name-contact a {
   background-color: #00CEC2;
@@ -258,7 +267,7 @@ h4 {
 }
 #od {
   border-bottom: 3px solid tomato;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 35px 40% 15px 40%;
 }
 .map {
@@ -281,7 +290,7 @@ h4 {
 /* ------   ( end of ) Map Director - Section  ------- */
 
 .Logo {
-  content: url('../../public/cookie11.png');
+  content: url('photos/cookie11.png');
   height: 70px;
   width: 90px;
   margin-top: -9px;
@@ -291,20 +300,20 @@ h4 {
 
 /* Images for react-carousel   --Section */
 .img-1 {
-  content: url('../../public/img-1.jpg');
+  content: url('photos/img-1.jpg');
 }
 .img-2 {
-  content: url('../../public/img-2.jpg');
+  content: url('photos/img-2.jpg');
 }
 .img-3 {
-  content: url('../../public/img-3.jpg');
+  content: url('photos/img-3.jpg');
 }
 .img-4 {
-  content: url('../../public/img-4.jpg');
+  content: url('photos/img-4.jpg');
 }
 .img-5 {
-  content: url('../../public/img-5.jpg');
+  content: url('photos/img-5.jpg');
 }
 .img-6 {
-  content: url('../../public/img-6.jpg');
+  content: url('photos/img-6.jpg');
 }

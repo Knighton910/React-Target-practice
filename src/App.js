@@ -5,43 +5,47 @@ import {
 } from 'react-router-dom'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
-// Routes import | home  about  connect
+// Routes import | home  learn  connect
 import Home from './components/home'
 import Learn from './components/learn'
 import Connect from './components/connect'
 import Build from './components/build'
-import '../src/components/styles.css';
+import '../public/styles.css';
 
 
 const RouteHub = () => (
   <Router>
     <div className="wrapper">
-        <ul className="mini-nav">
-          <li><a className="glyphicon glyphicon-search" href="#"></a></li>
-          <li><a className="min-down" href="#">Downloads</a></li>
-          <li><a href="#">Support</a></li>
-          <li>
-            <a className="si" href="#">Sign In</a>
-            <a>/</a>
-            <a className="min-reg" href="#">Register</a>
-          </li>
-          <li><a className="min-con" href="#">Contact Us</a></li>
-        </ul>
-      <Navbar className="navI">
 
+      <ul className="mini-nav">
+
+        <li><a className="glyphicon glyphicon-search" href="#"></a></li>
+        <li><a className="min-down" href="#">Downloads</a></li>
+        <li><a href="#">Support</a></li>
+        <li>
+          <a className="si" href="#">Sign In</a>
+          <a>/</a>
+          <a className="min-reg" href="#">Register</a>
+        </li>
+        <li><a className="min-con" href="#">Contact Us</a></li>
+      </ul>
+
+      <Navbar className="navI">
         <Nav className="main-nav">
           <NavItem className="Logo" href="/"></NavItem>
+          <NavItem className="mn" href="/">Home</NavItem>
           <NavItem className="mn" href="/learn">Learn</NavItem>
           <NavItem className="mn" href="/build">Build</NavItem>
           <NavItem className="mn" href="/connect">Connect</NavItem>
-          <NavItem className="mn" href="#">Company</NavItem>
         </Nav>
       </Navbar>
 
-      <Route exact path="/" component={Home}/>
+      <Route exact path="/" />
       <Route path="/learn" component={Learn}/>
       <Route path="/build" component={Build}/>
       <Route path="/connect" component={Connect}/>
+      <Route path="/" component={Home}/>
+
     </div>
   </Router>
 )

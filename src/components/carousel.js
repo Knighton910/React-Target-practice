@@ -1,6 +1,5 @@
 var React = require('react');
 var Slider = require('react-slick');
-import './styles.css'
 
 
 var SampleNextArrow = React.createClass({

@@ -11,7 +11,7 @@ const Home = React.createClass({
     return(
       <div className="home-content">
         <div className="billboard">
-          <h1 className="h1">Los Angeles</h1>
+          <h1 className="h1">Cookies Inc</h1>
 
 
           <h4>
@@ -34,19 +34,25 @@ const Home = React.createClass({
 
 
           <div className="product-nav">
-            <ul>
+            <a href="#">Contact</a>
+            <a href="#">Events</a>
+            <a href="#">Featured</a>
+            <a href="#">Jobs</a>
+            <a href="#">Gallery</a>
+
+            {/*<ul>
               <li>Contact</li>
               <li>Events</li>
               <li>Featured</li>
               <li>Gallery</li>
               <li>Jobs</li>
-            </ul>
+            </ul>*/}
           </div>
+
 
           <div classID="mapme">
             <MapView/>
           </div>
-
 
 
           <div className="dir-sect">

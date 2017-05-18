@@ -40,11 +40,10 @@ const RouteHub = () => (
         </Nav>
       </Navbar>
 
-      <Route exact path="/" />
+      <Route exact path="/" component={Home}/>
       <Route path="/learn" component={Learn}/>
       <Route path="/build" component={Build}/>
       <Route path="/connect" component={Connect}/>
-      <Route path="/" component={Home}/>
 
     </div>
   </Router>
